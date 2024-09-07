@@ -39,8 +39,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20" # Specify the Node.js version
+          node-version: "20" # Specify your Node.js version
 
-      - name: Run Linter
+      - name: Install dependencies
         run: |
-          npm run lint
+          npm install
+
+      - name: Install ESLint
+        run: |
+          npm install eslint --save-dev
+
+      - name: Lint code with ESLint
+        run: |
+          npx eslint .
