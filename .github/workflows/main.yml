@@ -52,3 +52,7 @@ jobs:
       - name: Lint code with ESLint
         run: |
           npx eslint .
+
+      - name: Add execute permission to ESLint
+        run: |
+          chmod +x ./node_modules/.bin/eslint
