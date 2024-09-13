@@ -23,3 +23,13 @@ This repository demonstrates a CI/CD pipeline for a Node.js project, using GitHu
 - npm (comes with Node.js)
 
 ### Install Dependencies
+
+## Screenshots
+
+![image](<Screenshot (255).png>)
+
+![image](<Screenshot (251).png>)
+
+![image](<Screenshot (253).png>)
+
+![image](<Screenshot (254).png>)
