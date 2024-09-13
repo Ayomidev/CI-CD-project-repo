@@ -49,11 +49,6 @@ jobs:
         run: |
           npm install eslint --save-dev
 
-      - name: Lint code with ESLint
-        run: |
-          npx eslint .
-            echo "Linting completed successfully" || exit 1
-
       - name: Add execute permission to ESLint
         run: |
           chmod +x ./node_modules/.bin/eslint
