@@ -63,5 +63,5 @@ jobs:
         run: |
           ./node_modules/.bin/eslint .
 
-      - name: Use secret
-        run: echo ${{ secrets.MY_SECRET }}
+#      - name: Use secret
+#        run: echo ${{ secrets.MY_SECRET }}
