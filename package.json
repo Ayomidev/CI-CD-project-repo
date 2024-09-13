@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"No tests defined\"",
-    "build": "cp -r src/* build/",
     "lint": "eslint ."
   },
   "author": "",
